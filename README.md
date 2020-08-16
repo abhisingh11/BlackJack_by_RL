@@ -4,4 +4,4 @@ A human can learn anything If someone teaches them rules and few games but what 
 to teach a Agent to play BlackJack by showing the rules and allowing to play a thousand times before it comes to a optimal policy.
 
 This is the output and the heat map.
-![alt text](C:\Users\Stark_3000\Documents\Blackjack_ans.png)
+![](https://github.com/Anubhav1107/BlackJack_by_RL/blob/master/Images/Blackjack_ans.png)
