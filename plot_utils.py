@@ -6,8 +6,8 @@ def plot_values(V):
 	V_sq = np.reshape(V, (4,4))
 
 	# plot the state-value function
-	fig = plt.figure(figsize=(8, 8))
-	#figure size changes to 8 by 8
+	fig = plt.figure(figsize=(7, 7))
+	#figure size changes to 7 by 7
 	ax = fig.add_subplot(111)
 	im = ax.imshow(V_sq, cmap='cool')
 	for (j,i),label in np.ndenumerate(V_sq):
