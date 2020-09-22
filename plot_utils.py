@@ -6,7 +6,7 @@ def plot_values(V):
 	V_sq = np.reshape(V, (4,4))
 
 	# plot the state-value function
-	fig = plt.figure(figsize=(6, 6))
+	fig = plt.figure(figsize=(8, 8))
 	ax = fig.add_subplot(111)
 	im = ax.imshow(V_sq, cmap='cool')
 	for (j,i),label in np.ndenumerate(V_sq):
@@ -14,3 +14,5 @@ def plot_values(V):
 	plt.tick_params(bottom=False, left=False, labelbottom=False, labelleft=False)
 	plt.title('State-Value Function')
 	plt.show()
+	
+	#please check and accept
